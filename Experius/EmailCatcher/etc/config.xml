@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <emailcatcher>
+            <general>
+                <enabled>1</enabled>
+                <days_to_clean>30</days_to_clean>
+            </general>
+            <whitelist>
+                <apply_whitelist>0</apply_whitelist>
+                <email_templates/>
+            </whitelist>
+        </emailcatcher>
+    </default>
+</config>
